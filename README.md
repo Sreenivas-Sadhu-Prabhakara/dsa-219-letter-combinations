@@ -12,6 +12,13 @@ The cleanest instance of backtracking-as-cartesian-product: position i of the ou
 
 **Complexity:** O(output) = up to 4ⁿ·n; O(n) depth.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
